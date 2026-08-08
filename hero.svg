@@ -1,0 +1,110 @@
+<svg width="900" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+  .name { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 800; font-size: 48px; letter-spacing: 6px; fill: #ffffff; }
+  .sub { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 600; font-size: 16px; letter-spacing: 2px; fill: #818cf8; }
+  .ach { font-family: 'Fira Code', Consolas, monospace; font-weight: 600; font-size: 15px; fill: #f5a623; }
+  .status-text { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 2px; fill: #34d399; }
+  .corner { stroke: #818cf8; stroke-width: 2; fill: none; opacity: .8; }
+  .glowbar { animation: pulse 2.6s ease-in-out infinite; }
+  .trace { fill: none; stroke-width: 2; stroke-linecap: round; stroke-dasharray: 30 250; animation: travel 3.2s linear infinite; }
+  @keyframes travel { to { stroke-dashoffset: -400; } }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+  @keyframes scan { 0% { transform: translateY(-40px); } 100% { transform: translateY(400px); } }
+  
+  .clip1 rect { animation: type1 12s infinite; }
+  .clip2 rect { animation: type2 12s infinite; }
+  .clip3 rect { animation: type3 12s infinite; }
+  @keyframes type1 { 0%{width:0} 3%{width:0} 11%{width:260px} 27%{width:260px} 33%{width:0} 100%{width:0} }
+  @keyframes type2 { 0%{width:0} 33%{width:0} 36%{width:0} 44%{width:290px} 60%{width:290px} 66%{width:0} 100%{width:0} }
+  @keyframes type3 { 0%{width:0} 66%{width:0} 69%{width:0} 77%{width:310px} 93%{width:310px} 100%{width:0} }
+</style>
+
+<radialGradient id="bgGrad" cx="50%" cy="15%" r="90%">
+  <stop offset="0%" stop-color="#1e1b4b"/>
+  <stop offset="45%" stop-color="#0f172a"/>
+  <stop offset="100%" stop-color="#020617"/>
+</radialGradient>
+
+<radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+  <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+  <stop offset="100%" stop-color="#000000" stop-opacity="0.6"/>
+</radialGradient>
+
+<linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#6366f1"><animate attributeName="stop-color" values="#6366f1;#38bdf8;#34d399;#f5a623;#6366f1" dur="8s" repeatCount="indefinite"/></stop>
+  <stop offset="100%" stop-color="#a855f7"><animate attributeName="stop-color" values="#a855f7;#f43f5e;#6366f1;#38bdf8;#a855f7" dur="8s" repeatCount="indefinite"/></stop>
+</linearGradient>
+
+<clipPath id="c1"><rect x="180" y="222" width="0" height="30"/></clipPath>
+<clipPath id="c2"><rect x="180" y="222" width="0" height="30"/></clipPath>
+<clipPath id="c3"><rect x="180" y="222" width="0" height="30"/></clipPath>
+</defs>
+
+<!-- Background -->
+<rect width="900" height="380" rx="16" fill="url(#bgGrad)"/>
+<rect width="900" height="380" rx="16" fill="url(#vignette)"/>
+
+<!-- Grid Background -->
+<g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+  <line x1="0" y1="60" x2="900" y2="60"/><line x1="0" y1="120" x2="900" y2="120"/><line x1="0" y1="180" x2="900" y2="180"/>
+  <line x1="0" y1="240" x2="900" y2="240"/><line x1="0" y1="300" x2="900" y2="300"/>
+  <line x1="150" y1="0" x2="150" y2="380"/><line x1="300" y1="0" x2="300" y2="380"/><line x1="450" y1="0" x2="450" y2="380"/>
+  <line x1="600" y1="0" x2="600" y2="380"/><line x1="750" y1="0" x2="750" y2="380"/>
+</g>
+
+<!-- Animated Border Frame -->
+<rect x="10" y="10" width="880" height="360" rx="12" fill="none" stroke="url(#frameGrad)" stroke-width="2" opacity="0.7"/>
+
+<!-- Cyberpunk Corners -->
+<path class="corner" d="M 25 45 L 25 25 L 45 25"/>
+<path class="corner" d="M 855 25 L 875 25 L 875 45"/>
+<path class="corner" d="M 25 335 L 25 355 L 45 355"/>
+<path class="corner" d="M 855 355 L 875 355 L 875 335"/>
+
+<!-- Status Bar Header -->
+<circle cx="45" cy="52" r="5" fill="#34d399" class="glowbar"/>
+<text x="60" y="56" class="status-text">SYSTEM ONLINE // SIDOARJO, INDONESIA</text>
+<text x="730" y="56" class="status-text" fill="#818cf8">NADEMMM v2026</text>
+<line x1="30" y1="75" x2="870" y2="75" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+
+<!-- Main Hero Content -->
+<text x="50" y="145" class="name">NAADHIM FAHLY</text>
+<text x="52" y="182" class="sub">LEAD FULL STACK ENGINEER • SIJA SYSTEMS ARCHITECT</text>
+
+<!-- Animated Typing Text Clips -->
+<text x="52" y="242" class="ach">SPECIALTY &gt;</text>
+
+<g class="clip1" clip-path="url(#c1)">
+  <text x="180" y="242" class="ach" fill="#38bdf8">React &amp; Next.js 16 Ecosystem</text>
+</g>
+<g class="clip2" clip-path="url(#c2)">
+  <text x="180" y="242" class="ach" fill="#f5a623">3D WebGL &amp; Canvas Studios</text>
+</g>
+<g class="clip3" clip-path="url(#c3)">
+  <text x="180" y="242" class="ach" fill="#a855f7">Laravel, Supabase &amp; Cloud Infra</text>
+</g>
+
+<!-- Status Pill Badges -->
+<g transform="translate(50, 290)">
+  <!-- Pill 1 -->
+  <rect x="0" y="0" width="160" height="34" rx="6" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="80" y="22" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12" fill="#818cf8" text-anchor="middle">FULL STACK ENG</text>
+  
+  <!-- Pill 2 -->
+  <rect x="180" y="0" width="180" height="34" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+  <text x="270" y="22" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12" fill="#34d399" text-anchor="middle">TELKOM SIJA STUDENT</text>
+  
+  <!-- Pill 3 -->
+  <rect x="380" y="0" width="160" height="34" rx="6" fill="#4c1d95" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="460" y="22" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12" fill="#c084fc" text-anchor="middle">FREELANCE DEV</text>
+  
+  <!-- Pill 4 -->
+  <rect x="560" y="0" width="160" height="34" rx="6" fill="#78350f" stroke="#f5a623" stroke-width="1.5"/>
+  <text x="640" y="22" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12" fill="#fbbf24" text-anchor="middle">OPEN FOR COLLAB</text>
+</g>
+
+<!-- Scanning Glow Beam -->
+<line x1="30" y1="0" x2="870" y2="0" stroke="url(#frameGrad)" stroke-width="2" opacity="0.4" style="animation: scan 4s ease-in-out infinite;"/>
+
+</svg>

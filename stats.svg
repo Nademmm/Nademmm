@@ -1,0 +1,73 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>
+  .title { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 800; font-size: 24px; letter-spacing: 4px; fill: #f5a623; }
+  .proj-title { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 800; font-size: 15px; letter-spacing: 1px; fill: #ffffff; }
+  .proj-desc { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 600; font-size: 12px; fill: #94a3b8; }
+  .tag { font-family: 'Fira Code', monospace; font-weight: 700; font-size: 11px; fill: #818cf8; }
+  .corner { stroke: #6366f1; stroke-width: 2; fill: none; opacity: .8; }
+</style>
+
+<radialGradient id="bgGrad" cx="50%" cy="15%" r="90%">
+  <stop offset="0%" stop-color="#161022"/>
+  <stop offset="45%" stop-color="#0a0713"/>
+  <stop offset="100%" stop-color="#020103"/>
+</radialGradient>
+
+<linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#6366f1"><animate attributeName="stop-color" values="#6366f1;#38bdf8;#34d399;#f5a623;#6366f1" dur="8s" repeatCount="indefinite"/></stop>
+  <stop offset="100%" stop-color="#a855f7"><animate attributeName="stop-color" values="#a855f7;#f43f5e;#6366f1;#38bdf8;#a855f7" dur="8s" repeatCount="indefinite"/></stop>
+</linearGradient>
+</defs>
+
+<!-- Background -->
+<rect width="900" height="420" rx="16" fill="url(#bgGrad)"/>
+<rect x="10" y="10" width="880" height="400" rx="12" fill="none" stroke="url(#frameGrad)" stroke-width="2" opacity="0.6"/>
+
+<!-- Corners -->
+<path class="corner" d="M 25 35 L 25 25 L 35 25"/>
+<path class="corner" d="M 865 25 L 875 25 L 875 35"/>
+<path class="corner" d="M 25 385 L 25 395 L 35 395"/>
+<path class="corner" d="M 865 395 L 875 395 L 875 385"/>
+
+<!-- Title Header -->
+<text x="45" y="52" class="title">// FEATURED PROJECTS &amp; SYSTEM METRICS</text>
+<line x1="35" y1="70" x2="865" y2="70" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+
+<!-- Project 1 -->
+<g transform="translate(45, 90)">
+  <rect x="0" y="0" width="395" height="135" rx="8" fill="#1e1b4b" fill-opacity="0.4" stroke="#6366f1" stroke-width="1"/>
+  <text x="20" y="32" class="proj-title">NISCAHYA INDONESIA CERDAS</text>
+  <text x="20" y="58" class="proj-desc">Enterprise Solar PJU distributor platform with dynamic</text>
+  <text x="20" y="76" class="proj-desc">MySQL catalog &amp; Flowise AI assistant.</text>
+  <text x="20" y="108" class="tag">[React] [Node.js] [Express] [MySQL] [Flowise AI]</text>
+</g>
+
+<!-- Project 2 -->
+<g transform="translate(460, 90)">
+  <rect x="0" y="0" width="395" height="135" rx="8" fill="#1e1b4b" fill-opacity="0.4" stroke="#38bdf8" stroke-width="1"/>
+  <text x="20" y="32" class="proj-title">REKABATIK STUDIO</text>
+  <text x="20" y="58" class="proj-desc">Batik e-commerce &amp; interactive Fabric.js canvas</text>
+  <text x="20" y="76" class="proj-desc">custom design studio with Supabase Realtime.</text>
+  <text x="20" y="108" class="tag" fill="#38bdf8">[React] [TypeScript] [Supabase] [Fabric.js]</text>
+</g>
+
+<!-- Project 3 -->
+<g transform="translate(45, 245)">
+  <rect x="0" y="0" width="395" height="135" rx="8" fill="#1e1b4b" fill-opacity="0.4" stroke="#f5a623" stroke-width="1"/>
+  <text x="20" y="32" class="proj-title">S.K.O.M.D.A // 3D MUSEUM</text>
+  <text x="20" y="58" class="proj-desc">First-person 3D Virtual Museum web platform for school</text>
+  <text x="20" y="76" class="proj-desc">culture &amp; regulation exploration.</text>
+  <text x="20" y="108" class="tag" fill="#f5a623">[Next.js] [Three.js] [R3F] [Supabase]</text>
+</g>
+
+<!-- Project 4 -->
+<g transform="translate(460, 245)">
+  <rect x="0" y="0" width="395" height="135" rx="8" fill="#1e1b4b" fill-opacity="0.4" stroke="#34d399" stroke-width="1"/>
+  <text x="20" y="32" class="proj-title">MYPOCKET FINTECH</text>
+  <text x="20" y="58" class="proj-desc">Fintech personal finance manager with gamified achievement</text>
+  <text x="20" y="76" class="proj-desc">badges &amp; analytics dashboard.</text>
+  <text x="20" y="108" class="tag" fill="#34d399">[Laravel 11] [PHP] [MySQL] [Chart.js]</text>
+</g>
+
+</svg>
