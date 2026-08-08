@@ -11,20 +11,17 @@
 <img width="100%" src="https://raw.githubusercontent.com/Nademmm/Nademmm/main/stats.svg" />
 </div>
 
+<div align="center">
+<img width="100%" src="https://raw.githubusercontent.com/Nademmm/Nademmm/main/contributions.svg" />
+</div>
+
+<div align="center">
+<img width="100%" src="https://raw.githubusercontent.com/Nademmm/Nademmm/main/activity.svg" />
+</div>
+
 <br/>
 
 <div align="center">
-
-### 📊 GitHub Activity
-
-<img src="https://github-readme-stats.vercel.app/api?username=Nademmm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Nadem's GitHub Stats" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nademmm&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="49%" />
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nademmm&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="98%" />
-
-<br/><br/>
 
 ### 🤝 Let's Connect
 
@@ -39,5 +36,7 @@
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
+
+<sub>⭐ <i>Designed & Engineered by <b>Naadhim Fahly (Nadem)</b></i></sub>
 
 </div>
