@@ -19,7 +19,7 @@ I care about clean architecture as much as clean UI, and I'm currently deepening
 ### `CURRENTLY`
 
 ```text
-▸ Building   STUDIO_VOID — a kinetic brutalist portfolio in Next.js 16 + TypeScript
+▸ Building   naadhim-fahly.vercel.app — a kinetic brutalist portfolio in Next.js 16 + TypeScript
 ▸ Learning   Advanced network engineering concepts (SIJA coursework)
 ▸ Exploring  Interactive front-end motion with Framer Motion
 ▸ Improving  Backend architecture patterns for client projects
@@ -96,8 +96,24 @@ Fintech-inspired personal finance tracker with budgeting, savings targets, and a
 ### `ACTIVITY`
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Nademmm&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E&hide_title=true" alt="GitHub Stats" height="150" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nademmm&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&hide=html,css" alt="Top Languages" height="150" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nademmm/Nademmm/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nademmm/Nademmm/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Nademmm/Nademmm/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Nademmm&theme=dark&background=0D1117&border=161B22&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakNum=58A6FF&sideNums=8B949E&sideLabels=8B949E&dates=8B949E&hide_border=true" alt="GitHub Streak Stats" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nademmm&theme=github_dark" alt="Top Languages" height="165" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nademmm&theme=github-dark&bg_color=0D1117&color=58A6FF&line=58A6FF&point=F0F6FC&hide_border=true" alt="GitHub Activity Graph" width="100%" />
 </div>
 
 <br />
@@ -109,6 +125,7 @@ Fintech-inspired personal finance tracker with budgeting, savings targets, and a
 <a href="https://linkedin.com/in/naadhimfahly"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=F0F6FC&labelColor=0D1117&color=161B22" alt="LinkedIn" /></a>
 <a href="https://naadhim-fahly.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=F0F6FC&labelColor=0D1117&color=161B22" alt="Portfolio" /></a>
 <a href="mailto:nademmm27@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=F0F6FC&labelColor=0D1117&color=161B22" alt="Email" /></a>
+<a href="https://instagram.com/nademazing"><img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=F0F6FC&labelColor=0D1117&color=161B22" alt="Instagram" /></a>
 </div>
 
 <br />
