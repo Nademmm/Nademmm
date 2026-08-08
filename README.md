@@ -1,4 +1,20 @@
+<div align="center">
+
 <img src="./assets/github-header.svg" alt="Naadhim Fahly — Full Stack Engineer" width="100%" />
+
+<br />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&height=45&lines=Full+Stack+Engineer+%7C+Network+Engineering+Student;Building+Kinetic+%26+High-Performance+Web+Applications;React+%2F+Next.js+%E2%80%A2+Laravel+%E2%80%A2+Node.js+%E2%80%A2+TypeScript;Exploring+Framer+Motion+%26+Network+Systems" alt="Typing Subtitle" />
+
+<br />
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Nademmm&color=58a6ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Location-Sidoarjo%2C%20ID-161B22?style=for-the-badge&logo=googlemaps&logoColor=58A6FF&labelColor=0D1117" alt="Location" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Status-Open%20for%20Collab-3FB950?style=for-the-badge&logo=github&logoColor=F0F6FC&labelColor=0D1117" alt="Status" />
+</p>
 
 </div>
 
@@ -19,10 +35,9 @@ I care about clean architecture as much as clean UI, and I'm currently deepening
 ### `CURRENTLY`
 
 ```text
-▸ Building   naadhim-fahly.vercel.app — a kinetic brutalist portfolio in Next.js 16 + TypeScript
 ▸ Learning   Advanced network engineering concepts (SIJA coursework)
-▸ Exploring  Interactive front-end motion with Framer Motion
-▸ Improving  Backend architecture patterns for client projects
+▸ Exploring  Interactive front-end motion with Framer Motion & Kinetic UI
+▸ Improving  Backend architecture patterns & scalable API design
 ```
 
 <br />
@@ -34,6 +49,23 @@ I care about clean architecture as much as clean UI, and I'm currently deepening
 ### `STACK`
 
 <img src="./assets/tech-stack.svg" alt="Tech stack: Frontend, Backend, Database, Tools" width="100%" />
+
+<br />
+
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+</div>
 
 <br />
 <br />
@@ -115,6 +147,10 @@ Fintech-inspired personal finance tracker with budgeting, savings targets, and a
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nademmm&theme=github-dark&bg_color=0D1117&color=58A6FF&line=58A6FF&point=F0F6FC&hide_border=true" alt="GitHub Activity Graph" width="100%" />
 </div>
+
+<br />
+
+<img src="./assets/section-divider.svg" alt="" width="100%" />
 
 <br />
 

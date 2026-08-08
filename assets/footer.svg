@@ -1,8 +1,20 @@
 <svg viewBox="0 0 900 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="footer">
+  <defs>
+    <style>
+      @keyframes glow-pulse {
+        0%, 100% { fill: #8B949E; text-shadow: none; }
+        50% { fill: #58A6FF; text-shadow: 0 0 10px rgba(88, 166, 255, 0.6); }
+      }
+      .footer-txt {
+        animation: glow-pulse 3s infinite ease-in-out;
+      }
+    </style>
+  </defs>
+
   <rect x="0" y="0" width="900" height="90" fill="#0D1117"/>
   <line x1="0" y1="0" x2="900" y2="0" stroke="#30363D" stroke-width="1"/>
 
-  <text x="450" y="38" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="12" letter-spacing="1" fill="#8B949E">Thanks for stopping by — always building something.</text>
+  <text x="450" y="38" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="12" letter-spacing="1" class="footer-txt">Thanks for stopping by — always building something.</text>
 
-  <text x="450" y="66" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="10.5" letter-spacing="3" fill="#30363D">NAADHIM_FAHLY ✦ FULL_STACK_ENGINEER ✦ NAADHIM_FAHLY ✦ FULL_STACK_ENGINEER</text>
+  <text x="450" y="66" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="10.5" letter-spacing="3" fill="#58A6FF" opacity="0.4">NAADHIM_FAHLY ✦ FULL_STACK_ENGINEER ✦ NAADHIM_FAHLY ✦ FULL_STACK_ENGINEER</text>
 </svg>
