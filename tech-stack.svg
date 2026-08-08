@@ -1,0 +1,41 @@
+<svg viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech stack">
+  <rect x="0" y="0" width="900" height="220" fill="#0D1117"/>
+  <rect x="1" y="1" width="898" height="218" fill="none" stroke="#30363D" stroke-width="1"/>
+
+  <text x="24" y="30" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" letter-spacing="2" fill="#8B949E">N.03 — STACK_INDEX</text>
+  <line x1="24" y1="42" x2="876" y2="42" stroke="#30363D" stroke-width="1"/>
+
+  <!-- column dividers -->
+  <line x1="243" y1="54" x2="243" y2="196" stroke="#21262D" stroke-width="1"/>
+  <line x1="462" y1="54" x2="462" y2="196" stroke="#21262D" stroke-width="1"/>
+  <line x1="681" y1="54" x2="681" y2="196" stroke="#21262D" stroke-width="1"/>
+
+  <!-- Frontend -->
+  <g font-family="'JetBrains Mono','Courier New',monospace">
+    <text x="24" y="70" font-size="13" letter-spacing="2" fill="#58A6FF">FRONTEND</text>
+    <text x="24" y="96" font-size="12.5" fill="#F0F6FC">▸ React</text>
+    <text x="24" y="118" font-size="12.5" fill="#F0F6FC">▸ Next.js</text>
+    <text x="24" y="140" font-size="12.5" fill="#F0F6FC">▸ TypeScript</text>
+    <text x="24" y="162" font-size="12.5" fill="#F0F6FC">▸ Tailwind CSS</text>
+
+    <!-- Backend -->
+    <text x="267" y="70" font-size="13" letter-spacing="2" fill="#58A6FF">BACKEND</text>
+    <text x="267" y="96" font-size="12.5" fill="#F0F6FC">▸ Node.js</text>
+    <text x="267" y="118" font-size="12.5" fill="#F0F6FC">▸ Express.js</text>
+    <text x="267" y="140" font-size="12.5" fill="#F0F6FC">▸ Laravel</text>
+    <text x="267" y="162" font-size="12.5" fill="#F0F6FC">▸ PHP</text>
+
+    <!-- Database -->
+    <text x="486" y="70" font-size="13" letter-spacing="2" fill="#58A6FF">DATABASE</text>
+    <text x="486" y="96" font-size="12.5" fill="#F0F6FC">▸ MySQL</text>
+    <text x="486" y="118" font-size="12.5" fill="#F0F6FC">▸ PostgreSQL</text>
+    <text x="486" y="140" font-size="12.5" fill="#F0F6FC">▸ Supabase</text>
+
+    <!-- Tools -->
+    <text x="705" y="70" font-size="13" letter-spacing="2" fill="#58A6FF">TOOLS</text>
+    <text x="705" y="96" font-size="12.5" fill="#F0F6FC">▸ Git</text>
+    <text x="705" y="118" font-size="12.5" fill="#F0F6FC">▸ Docker</text>
+    <text x="705" y="140" font-size="12.5" fill="#F0F6FC">▸ Vite</text>
+    <text x="705" y="162" font-size="12.5" fill="#F0F6FC">▸ Figma</text>
+  </g>
+</svg>
